@@ -1,1 +1,5 @@
-# Image preview of Bash on my Macbook's Visual Studio Code terminal.
+## A05 - Bash Screenshot
+### Zachary Barrentine
+### Description:
+
+The purpose of this picture is to preview the bash terminal in Visual Studio Code on my Macbook.
