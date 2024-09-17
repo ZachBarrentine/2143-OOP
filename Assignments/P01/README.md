@@ -9,6 +9,5 @@ The purpose of this program is to utilize a class to store inputted fractions fr
 |   #   | File            | Description                                        |
 | :---: | --------------- | -------------------------------------------------- |
 |   1   | main.cpp        | Main driver of my project that launches project    |
-|   2   | data            | File that stores the fractions being compared      |
-|   3   | header          | Header file for organization's sake                |
+|   2   | input           | File that stores the fractions being compared      |
 
