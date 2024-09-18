@@ -8,6 +8,6 @@ The purpose of this program is to utilize a class to store inputted fractions fr
 
 |   #   | File            | Description                                        |
 | :---: | --------------- | -------------------------------------------------- |
-|   1   | main.cpp        | Main driver of my project that launches project    |
-|   2   | input           | File that stores the fractions being compared      |
+|   1   | [P01.cpp](https://github.com/ZachBarrentine/2143-OOP/blob/main/Assignments/P01/P01.cpp)         | Main driver of my project that launches project    |
+|   2   | [input](https://github.com/ZachBarrentine/2143-OOP/blob/main/Assignments/P01/input)           | File that stores the fractions being compared      |
 
