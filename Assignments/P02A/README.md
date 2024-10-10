@@ -10,4 +10,4 @@ required a manual installation.
 
 |   #   | File            | Description                                        |
 | :---: | --------------- | -------------------------------------------------- |
-|   1   | Image         | Proof of ncurses working through nano  in the terminal.|
+|   1   | [Image](https://github.com/ZachBarrentine/2143-OOP/blob/main/Assignments/P02A/Screen%20Shot%202024-10-09%20at%209.09.45%20PM.png)         | Proof of ncurses working through nano  in the terminal.|
