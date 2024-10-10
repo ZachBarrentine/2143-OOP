@@ -1,4 +1,4 @@
-## P02B - CMPS 2143
+## P02B - Class Design
 ### Zach Barrentine
 ### Description:
 
