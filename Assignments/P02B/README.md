@@ -5,13 +5,60 @@
 A text file is given that holds the four major classes: Dice, Player, Game, and KnuckleBones. In each class are the Data, Actions, and
 Relationships that are held.
 
-### Files
-
-|   #   | File            | Description                                        |
-| :---: | --------------- | -------------------------------------------------- |
-|   1   | Text         | Main driver of my project that launches game.      |
-
-### Instructions
+### Instructions:
 
 - The text file provides pseudo code.
-- For some methods, inheritance and composition are specified.
+- Inheritance and composition are specified when used.
+
+## Outline:
+
+**Dice Class**: 
+- **Data**:
+  - `sides`
+  - `current_value`
+ 
+- **Actions**:
+  - `roll()`
+  - `get_value()`
+- **Relationships**:
+  - Dice will be used by the Player to roll during the game.
+
+
+**Player Class**:
+- **Data**:
+  - `name`
+  - `score`
+  - `dice_set`: Array of Dice objects
+  - `player_stats`
+  
+- **Actions**:
+  - `roll_dice()`: Roll the dice for the player.
+  - `get_score()`: Retrieve the current score.
+  - `update_score(points)`: Update the player’s score after each roll.
+
+- **Relationships**:
+  - A Player **HAS-A** Dice (composition).
+  - A Player **IS-A** participant in the game.
+
+**Game Class**:
+- **Data**:
+  - `players`
+  - `rules`
+  - `current_round`
+- **Actions**:
+  - `start_game()`
+  - `end_game()`
+  - `get_winner()`
+- **Relationships**:
+  - The Game class controls the players and their actions.
+
+**Knucklebones Class**:
+- **Data**:
+  - `board`
+  - `knucklebones_specific_rules`
+- **Actions**:
+  - `start_round()`
+  - `end_round()`
+  - `calculate_winner()`
+- **Relationships**:
+  - Inherits from Game, as Knucklebones **is a** game with specific rules and conditions.
