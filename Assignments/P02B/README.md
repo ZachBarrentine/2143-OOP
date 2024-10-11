@@ -26,10 +26,16 @@ Relationships that are held.
 
 **Player Class**:
 - **Data**:
-  - `name`
+  - `first name` +
+  - `last name` +
   - `score`
   - `dice_set`: Array of Dice objects
-  - `player_stats`
+  - `player_stats`+
+  - `level` +
+  - `userid` +
+  - `score` +
+  - `streak` +
+  - `messaging` +
   
 - **Actions**:
   - `roll_dice()`: Roll the dice for the player.
@@ -45,20 +51,26 @@ Relationships that are held.
   - `players`
   - `rules`
   - `current_round`
+  - `teams` +
+  - `team stats` +
 - **Actions**:
   - `start_game()`
   - `end_game()`
-  - `get_winner()`
+  - `get_winner()` +
 - **Relationships**:
-  - The Game class controls the players and their actions.
+  - The Game class handles the players and their actions.
 
 **Knucklebones Class**:
 - **Data**:
   - `board`
   - `knucklebones_specific_rules`
+  - `leaderboard` +
+  - `coins` +
+  - `high score` +
 - **Actions**:
   - `start_round()`
   - `end_round()`
   - `calculate_winner()`
 - **Relationships**:
-  - Inherits from Game, as Knucklebones **is a** game with specific rules and conditions.
+  - The Knucklebones class inherits from Game, as Knucklebones **is a** game with specific rules and conditions.
+
