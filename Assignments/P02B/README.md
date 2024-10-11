@@ -9,6 +9,7 @@ Relationships that are held.
 
 - The text file provides pseudo code.
 - Inheritance and composition are specified when used.
+- All data, actions, and relationships with an arrow stating *necessary*, *possible*, or *wishful* represent the ideas brainstormed during the lecture, along with my personal belief on their necessity to the program.
 
 ## Outline:
 
@@ -21,21 +22,21 @@ Relationships that are held.
   - `roll()`
   - `get_value()`
 - **Relationships**:
-  - Dice will be used by the Player to roll during the game.
+  - Dice will be used by the Player so they may roll during the game.
 
 
 **Player Class**:
 - **Data**:
-  - `first name` +
-  - `last name` +
+  - `first name` -> *necessary*
+  - `last name` -> *necessary*
   - `score`
   - `dice_set`: Array of Dice objects
-  - `player_stats`+
-  - `level` +
-  - `userid` +
-  - `score` +
-  - `streak` +
-  - `messaging` +
+  - `player_stats` -> *possible*
+  - `level` -> *wishful*
+  - `userid` -> *possible*
+  - `score` -> *possible*
+  - `streak` -> *possible*
+  - `messaging` -> *wishful*
   
 - **Actions**:
   - `roll_dice()`: Roll the dice for the player.
@@ -51,22 +52,23 @@ Relationships that are held.
   - `players`
   - `rules`
   - `current_round`
-  - `teams` +
-  - `team stats` +
+  - `teams` -> *wishful*
+  - `team stats` -> *wishful*
+  - `winner`
 - **Actions**:
   - `start_game()`
   - `end_game()`
-  - `get_winner()` +
+  - `get_winner()` -> *necessary*
 - **Relationships**:
-  - The Game class handles the players and their actions.
+  - The Game class **handles** the players (composition)
 
 **Knucklebones Class**:
 - **Data**:
   - `board`
   - `knucklebones_specific_rules`
-  - `leaderboard` +
-  - `coins` +
-  - `high score` +
+  - `leaderboard` -> *possible*
+  - `coins` -> *wishful*
+  - `high score` -> *possible*
 - **Actions**:
   - `start_round()`
   - `end_round()`
