@@ -11,7 +11,7 @@ The purpose of this project was to recreate the game KnuckleBones from Cult of t
 |   1   | [button_class.hpp](https://github.com/ZachBarrentine/2143-OOP/blob/main/Assignments/P02C/button_class.hpp)         | File that contains button properties      |
 |   2   | [color_class.hpp](https://github.com/ZachBarrentine/2143-OOP/blob/main/Assignments/P02C/color_class.hpp)  | File that contains multiple color options         |
 |   3   | [dice_class.hpp](https://github.com/ZachBarrentine/2143-OOP/blob/main/Assignments/P02C/dice_class.hpp) | File that contains dice properties |
-|   4   | game.cpp | Main file for the program |
+|   4   | [game.cpp](https://github.com/ZachBarrentine/2143-OOP/blob/main/Assignments/P02C/game.cpp) | Main file for the program |
 |   5   | grid_class.hpp | File that contains grid properties |
 |   6   | input_class.hpp | File that contains text properties |
 |   7   | logger_class.hpp | File that contains logging logic |
