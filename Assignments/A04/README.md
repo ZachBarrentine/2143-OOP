@@ -3,7 +3,7 @@
 ### Description:
 
 The purpose of this assignment is to create a wiki that covers various terms that we have learned and
-utilized in 2143 Object-Oriented Programming. Below is the a link to the wiki that contains the various deifnitions.
+utilized in 2143 Object-Oriented Programming. Below is the link to the wiki that contains the various deifnitions.
 
 ### Files
 
