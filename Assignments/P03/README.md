@@ -2,7 +2,7 @@
 ### Zach Barrentine
 ### Description:
 
-The purpose of this program is to utilize SFML to fully create the KnuckleBones game in C++. Multiple classes and hpp files were used to create the fully functioning game.
+The purpose of this program is to, using SFML, recreate the KnuckleBones game in C++. Multiple classes and files were used to create the fully functioning game.
 
 ### Files
 
