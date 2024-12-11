@@ -15,6 +15,9 @@ the creation of the program, various issues such as linker errors occured. The f
 |   4   | [textinput.hpp](https://github.com/ZachBarrentine/2143-OOP/blob/main/Assignments/P03/textinput.hpp) | Helper class that allows for text to be entered |
 |   5   | [music.hpp](https://github.com/ZachBarrentine/2143-OOP/blob/main/Assignments/P03/music.hpp) | Helper class that allows for music to play |
 |   6   | [The Gates Of Hell.mp3](https://github.com/ZachBarrentine/2143-OOP/blob/main/Assignments/P03/The%20Gates%20Of%20Hell.mp3) | Music file that music.hpp is able to play |
+|   7   | [images](https://github.com/ZachBarrentine/2143-OOP/tree/main/Assignments/P03/images) | Folder of all images needed |
+|   8   | [resources/fonts](https://github.com/ZachBarrentine/2143-OOP/tree/main/Assignments/P03/resources/fonts) | Folder of the font needed |
+
 
 ### Instructions
 
@@ -22,4 +25,6 @@ the creation of the program, various issues such as linker errors occured. The f
 - Make sure you download every image and file. This is necessary for the game to run.
 - Press the 'enter' key following typing your name
 - Press the 'space' key to roll the dice
+- Make sure the font "Roboto-Regular.ttf" is within "Resources/fonts" so that it is accessed properly
+- Make sure all images are within the "images" folder
 
