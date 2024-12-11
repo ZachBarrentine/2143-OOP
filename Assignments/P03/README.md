@@ -9,10 +9,12 @@ the creation of the program, various issues such as linker errors occured. The f
 
 |   #   | File            | Description                                        |
 | :---: | --------------- | -------------------------------------------------- |
-|   1   | main.cpp         | Main driver of my project that launches game.      |
-|   2   | roll.hpp  | Helper clas that runs through dice roll frames         |
-|   3   | grid.hpp | Helper class that displays the grids |
-|   4   | textinput.hpp | Helper class that allows for text to be entered |
+|   1   | [main.cpp](https://github.com/ZachBarrentine/2143-OOP/blob/main/Assignments/P03/main.cpp)         | Main driver of my project that launches game.      |
+|   2   | [roll.hpp](https://github.com/ZachBarrentine/2143-OOP/blob/main/Assignments/P03/roll.hpp)  | Helper clas that runs through dice roll frames         |
+|   3   | [grid.hpp](https://github.com/ZachBarrentine/2143-OOP/blob/main/Assignments/P03/grid.hpp) | Helper class that displays the grids |
+|   4   | [textinput.hpp](https://github.com/ZachBarrentine/2143-OOP/blob/main/Assignments/P03/textinput.hpp) | Helper class that allows for text to be entered |
+|   5   | [music.hpp](https://github.com/ZachBarrentine/2143-OOP/blob/main/Assignments/P03/music.hpp) | Helper class that allows for music to play |
+|   6   | [The Gates Of Hell.mp3](https://github.com/ZachBarrentine/2143-OOP/blob/main/Assignments/P03/The%20Gates%20Of%20Hell.mp3) | Music file that music.hpp is able to play |
 
 ### Instructions
 
